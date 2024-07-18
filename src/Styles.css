@@ -1,0 +1,113 @@
+.nav-title {
+  font-size: 60px;
+}
+.nav-item {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+.titles {
+  padding: 5px;
+  padding-left: 15px;
+}
+.explore-section {
+  height: 500px;
+  margin-bottom: 1rem;
+}
+.custom-section {
+  height: 500px;
+}
+.custom-section,
+.category-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+.category-section {
+  height: auto;
+}
+
+.category {
+  text-align: center;
+}
+
+.category-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+}
+
+.category-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.category-name,
+.category-link {
+  font-size: 16px;
+
+  color: black;
+  text-decoration: none;
+}
+.slides {
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.carousel {
+  width: 1300px;
+  margin: 0%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+}
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 135px;
+  margin-bottom: 50px;
+  margin-top: 200px;
+  font-weight: 500;
+  color: white;
+  font-size: 30px;
+
+  /* background-color: rgba(0, 0, 0, 0.5); Dark gray with 50% opacity */
+  text-align: left;
+}
+
+.ways-button {
+  height: 90px;
+  border-radius: 20px;
+}
+.log-bord {
+  border: 2px solid gainsboro;
+  padding: 20px;
+  border-radius: 2%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); /* Example box-shadow */
+}
+.login-box {
+  width: 600px;
+}
+.custom-button {
+  cursor: pointer;
+}
+.side-items {
+  font-weight: 500;
+  font-size: large;
+  border-bottom: 1px solid gainsboro;
+  margin: 20px;
+  margin-left: -10px;
+}
+.side-box {
+  height: 300px;
+}
+.side-but-mrg {
+  margin-top: 150px;
+}
