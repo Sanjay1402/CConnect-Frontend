@@ -1,10 +1,23 @@
+
+.custom-nav{
+  height: auto;
+  opacity: 95%;
+}
 .nav-title {
-  font-size: 60px;
+  font-size: 20px;
 }
 .nav-item {
-  font-size: 25px;
+  font-size: 20px;
   margin-right: 20px;
   margin-left: 40px;
+  
+}
+.custom-bar{
+  height: 20px;
+}
+.custom-bar img{
+  height:10px;
+  width: 10px;
 }
 .titles {
   padding: 5px;

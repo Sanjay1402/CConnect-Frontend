@@ -3,7 +3,7 @@ import SearchSection from "./SearchSection";
 import SliderSection from "./SliderSection";
 import CategoriesSection from "./CategoriesSection";
 import WaysSection from "./WaysSection";
-import DetailsSection from "./detailsSection";
+import DetailsSection from '../footer/FOOTER'
 
 
 function Home() {
