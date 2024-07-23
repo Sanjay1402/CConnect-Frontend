@@ -4,6 +4,7 @@ import SliderSection from "./SliderSection";
 import CategoriesSection from "./CategoriesSection";
 import WaysSection from "./WaysSection";
 import DetailsSection from '../footer/FOOTER'
+import SS from "../components/SS";
 
 
 function Home() {
@@ -11,11 +12,13 @@ function Home() {
     <>
       <div className="overflow-hidden">
         <Navbar />
-        <SearchSection />
+        <SS />
+        <SearchSection/>
         <SliderSection />
         <CategoriesSection />
         <WaysSection />
         <DetailsSection />
+       
       </div>
     </>
   );

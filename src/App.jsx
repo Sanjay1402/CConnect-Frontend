@@ -23,6 +23,7 @@ import Blog from "./footer/blog/LatestPosts";
 import LatestPosts from "./footer/blog/LatestPosts";
 import PopularPosts from "./footer/blog/PopularPosts";
 import Archives from "./footer/blog/Archives";
+import BookService from "./bookaservice/bookservice";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/login" element={<Login/> } />
           <Route path="/features" element={<Features/>} />
           <Route path="/create_seller_account" element={<CreateSellerAccount/>} />
+          <Route path="/book_service" element={<BookService/>} />
           <Route path="/categories" element={<CategoriesSection />} />
           <Route path="/category/:categoryId" element={<ServicesPage />} />
           <Route path="/service/:serviceId" element={<Features />} />

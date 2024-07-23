@@ -44,17 +44,17 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="features">
+              <a className="nav-link" href="http://localhost:5173/aboutus">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="http://localhost:5173/HelpCenter">
                 Support
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="http://localhost:5173/ContactUs">
                 Contact
               </a>
             </li>
@@ -101,7 +101,7 @@ function Navbar() {
               Need help?
             </button>
           </div>
-          <button className="btn btn-dark side-but-mrg" onClick={() => {window.location.href = '/login';}}>Login</button>
+          <button className="btn btn-dark side-but-mrg" onClick={() => {window.location.href = '/login';}}>Log out</button>
         </Offcanvas.Body>
       </Offcanvas>
     </nav>
