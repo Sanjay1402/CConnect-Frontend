@@ -39,7 +39,7 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-center order-lg-1" id="navbarNav">
           <ul className="navbar-nav text-center">
             <li className="nav-item">
-              <a className="nav-link active Custom-nav-items" aria-current="page" href="home">
+              <a className="nav-link active Custom-nav-items" aria-current="page" href="http://localhost:5173/home">
                 Home
               </a>
             </li>
@@ -73,30 +73,23 @@ function Navbar() {
             <button
               type="button"
               className="list-group-item list-group-item-action side-items"
-            >
-              My profile
-            </button>
-            <button
-              type="button"
-              className="list-group-item list-group-item-action side-items"
+              onClick={() => {window.location.href = '/home';}}
+              
             >
               Home
             </button>
             <button
               type="button"
               className="list-group-item list-group-item-action side-items"
+              onClick={() => {window.location.href = '/address';}}
             >
               Address
             </button>
+           
             <button
               type="button"
               className="list-group-item list-group-item-action side-items"
-            >
-              Settings
-            </button>
-            <button
-              type="button"
-              className="list-group-item list-group-item-action side-items"
+              onClick={() => {window.location.href = '/HelpCenter';}}
             >
               Need help?
             </button>

@@ -12,7 +12,7 @@ function Home() {
     <>
       <div className="overflow-hidden">
         <Navbar />
-        <SS />
+        {/* <SS /> */}
         <SearchSection/>
         <SliderSection />
         <CategoriesSection />

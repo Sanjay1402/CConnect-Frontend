@@ -24,6 +24,7 @@ import LatestPosts from "./footer/blog/LatestPosts";
 import PopularPosts from "./footer/blog/PopularPosts";
 import Archives from "./footer/blog/Archives";
 import BookService from "./bookaservice/bookservice";
+import Address from "./HomePage/Address";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
           <Route path="PopularPosts" element={<PopularPosts/>} />
           
           <Route path="Archives" element={<Archives/>} />
+          <Route path="Address" element={<Address/>} />
           
 
         </Routes>
